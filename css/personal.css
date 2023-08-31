@@ -1,0 +1,300 @@
+@impot url(<p style="font:italic small-caps bold 18px/24px Garamond, Georgia, Times, Serif;width:200px;">Sample text to demonstrate HTML font code.</p>")
+
+*{
+	margin: 0;
+	padding: 0;
+/*	background: skyblue;*/
+
+}
+
+/*------------------home page css start here------------------*/
+.sidebar{
+	background-color: #74043c;
+	width: 12vw;
+	height: 100vh;
+	font-family: fira sans-serif;
+	transition: transform 0.3s ease-in;
+
+}
+.sidebar nav{
+	padding: 0px;
+}
+.sidebar nav li{
+	cursor: pointer;
+	list-style:none ;
+	font-size: 34px;
+	padding: 80px 0;
+}
+.sidebar nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+.main{
+	  background-color: #111;
+    width: 100vw;
+    height: 100vh;
+/*    padding: 24px;*/
+
+}
+.main h1{
+	    color: white;
+    font-style: oblique;
+    font-size: 68px;
+    margin-left: 129vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #341338;
+    height: 94px;
+    width: 30vh;
+}
+
+.m{
+	     color: white;
+    font-style: oblique;
+    font-size: 82px;
+    margin-left: 139vh;
+    text-align: center;
+    background-color: #341338;
+    height: 91px;
+    width: 25vh;
+}
+.container{
+	display: flex;
+}
+.sidebarGo{
+	transform: translate(-443px,0px);
+	position: absolute;
+}
+.ham{
+	position: absolute;
+    cursor: pointer;
+    top: 23px;
+    left: 23px;
+}
+.cross{
+	    position: absolute;
+    cursor: pointer;
+    top: 16px;
+    left: 253px;
+
+}
+.infoContainer{
+	  background-color: #26101b;
+    height: 58vh;
+    width: 60vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.devInfo{
+	display: flex;
+	justify-content: normal;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'source code Pro',monospace;
+	color: antiquewhite;
+}
+.devpic img{
+	height:58vh;
+	margin-left: 176px;
+	width: 30vh;
+}
+/*===================css inside InfoContainer==================*/
+
+.name{
+	font-size: 40px;
+	font-style: oblique;
+	line-height: 123px;
+}
+.about{
+	font-size: 35px;
+	font-style: oblique;
+	line-height: 35px;
+}
+.dv{
+	font-size: 32px;
+	font-family: 'Fira sans', sans-serif;
+	margin-left: 336px;
+	line-height: 35px;
+	font-style: oblique;
+}
+.buttons button{
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 20px;
+	color: white;
+	background-color: #0b1830;
+	margin: 0 8px;
+
+}
+/*=========================css contact HTML=========================*/
+.C{
+	color: white;
+    font-style: oblique;
+    font-size: 33px;
+    margin-left: 80vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #341338;
+    height: 77px;
+    width: 105vh;
+
+}
+
+/*================contact form class start===================*/
+.CONTACT-FORM{
+	  background-color: #26101b;
+    height: 58vh;
+    width: 51vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+}
+.mb-3 input{
+	width: 17vh;
+	font-size: 15px;
+	border-radius: 11px;
+	display: flex;
+
+}
+.mb-3 p{
+	font-size: 31px;
+	color: #bc3816;
+	margin: 10px 5px;
+	font-style: oblique;
+
+}
+.buttons button:hover{
+	background-color: white;
+	color: dodgerblue;
+	
+}
+.FILL{
+	  text-align: center;
+    line-height: 36px;
+    font-size: 25px;
+    color: steelblue;
+    border: 11px outset #111738;
+    width: 152vh;
+
+}
+
+.pimary button{
+	  color: dodgerblue;
+    font-size: 29px;
+    border-radius: 15px;
+    padding: 0px 12px;
+    border:8px outset blanchedalmond;
+/*    font-style: oblique;*/
+	
+}
+.skillItem{
+	display: flex;
+	align-items: center;
+
+}
+.skill{
+     width: 443px;
+    height: 13px
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:1615px){
+	*{
+
+	}
+}
+.servicecontainer{
+	background-color:  #11111;
+	height: 70vh;
+	width:61vw;
+	margin: 144px auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+.devInfo-a{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'source code Pro',monospace;
+	background-color: darkslategray;
+  border: 15px outset #a4abcc;
+    border-radius: 213px;
+  padding: 54px;
+  margin: 128px;
+ 
+}
+
+.s{
+	    margin-left: 84vh;
+    display: flex;
+    text-align: center;
+    border: aquamarine;
+    font-size: 47px;
+    margin-top: 12px;
+
+}
+.devInfo-a button{
+	border-radius: 31px;
+    color: dodgerblue;
+    text-align: center;
+    display: inline-block;
+    width: 194px;
+    height: 75px;
+    transform: translateY(13px);
+    border: 4px outset #381911;
+    cursor: pointer;
+    font-size: 49px;
+
+}
+
+
+/*==============================css of intro========================*/
+.sk{
+	  color: white;
+    font-style: oblique;
+    font-size: 44px;
+    margin-left: 129vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #341338;
+    height: 52px;
+    width: 38vh;
+
+}
+.myskill{
+	    background-color: #26101b;
+    height: 54vh;
+    width: 60vw;
+    margin: 85px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skillcontainer{
+	padding: 5px;
+}
+.devInfo-a h3{
+	  height: 135px;
+	  width: 46vh;
+    font-style: oblique;
+    background-color: #341338;
+    color: aqua;
+    text-align: center;
+    font-size: 82px;
+}
+.devInfo-a p{
+	font-size: 57px;
+}
